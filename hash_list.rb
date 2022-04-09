@@ -14,3 +14,8 @@ list_of_people = [
   { :name => "Carl", :age => 9 },
 ]
 
+for person in list_of_people
+  if person[:age] >= 16
+    p person[:name]
+  end
+end
