@@ -5,8 +5,8 @@ input = gets.chomp.split
 
 data = Hash.new
 
-data[:name] = input[0]
-data[:age] = input[1]
-data[:occupation] = input[2]
+data[:name] = input[0].to_s
+data[:age] = input[1].to_i
+data[:occupation] = input[2].to_s
 
 p data
